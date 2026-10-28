@@ -1,0 +1,16 @@
+GITHUB UPLOAD STEPS (run from the DBMS folder in VS Code terminal)
+
+1. Check the folder:
+   pwd
+   git status
+
+2. If this is already a cloned repository:
+   git add .
+   git commit -m "Add all 10 DBMS lab experiments"
+   git push origin main
+
+3. If this folder is not connected to your GitHub repository, do not blindly run git push.
+   First clone https://github.com/anjaligupta1024/DBMS.git and copy the LABS folder
+   and README.md into the cloned repository, then run the commands above.
+
+4. Replace every LABS/LABn/output.png placeholder with your real SQL screenshot before final submission.
